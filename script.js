@@ -1,5 +1,5 @@
 function createPDF() {
-    // check if all tge fields are entered
+    // check if all the fields are entered
 
     if (document.getElementById("name").value == "" || document.getElementById("country").value =="") {
         alert("Please enter all fields");
